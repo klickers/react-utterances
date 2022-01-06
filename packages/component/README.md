@@ -31,7 +31,7 @@ class MyComponent extends Component {
       <div>
         <h1>What is Lorem Ipsum?</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <ReactUtterences repo={repo} type={'pathname'} />
+        <ReactUtterences repo={repo} type={'pathname'} theme="github-light" />
       </div>
     )
   }
@@ -42,8 +42,8 @@ export default MyComponent
 
 2. `url` type. just change `pathname` to `url` in above example:
 ```diff
--        <ReactUtterences repo={repo} type={'pathname'} />
-+        <ReactUtterences repo={repo} type={'url'} />
+-        <ReactUtterences repo={repo} type={'pathname'} theme="github-light" />
++        <ReactUtterences repo={repo} type={'url'} theme="github-light" />
 ```
 
 3. // TODO
